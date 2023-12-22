@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "WenntechTutorialPackage"
+version = "1.0.0"
+description = "This is a sample package written by Wenntech to serve only for tutorial purposes."
+authors = ["alex-wenner <alex@wenntech.cloud>"]
+license = "Apache2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.1.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
